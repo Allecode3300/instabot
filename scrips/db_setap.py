@@ -40,6 +40,8 @@ CREATE TABLE Photos (
     url TEXT
 );
 ''')
+          
+cursor.execute("INSERT INTO Users (username) VALUES (?)", ("keytr",))
 
 conn.commit()
 conn.close()
