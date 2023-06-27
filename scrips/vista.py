@@ -7,8 +7,7 @@ def clrscr():
 
 def menu_inicial():
     
-    names = ["Salir", "Ver usuarios", "Añadir usuario", "Añadir usuario personal", "Más"]
-    hours = [0, 1, 2, 3, 4]
+    names = ["Salir", "Ver usuarios", "Añadir usuario", "Ver usuarios personales", "Añadir usuario personal", "Más"]
     
     print("-"*39)
     for i in range(len(names)):
